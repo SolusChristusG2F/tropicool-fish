@@ -6,6 +6,9 @@
 
 The Tropicool Fish datapack seeks to add uses for the tropical fish while also implementing some small, simple mechanics to add a little more to the game than just another cooked fish (although it *does* add another cooked fish).
 
+This repository contains the project's source code. The datapack can be downloaded from the Modrinth page: 
+https://modrinth.com/datapack/tropicool-fish
+
 ## The Tropical Fish
 
 This pack adds multiple different foods that ultimately stem from the Tropical Fish. 
