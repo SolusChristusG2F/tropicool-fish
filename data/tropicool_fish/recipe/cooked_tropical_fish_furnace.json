@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "minecraft:tropical_fish",
+    "result": {
+        "id": "minecraft:cooked_cod",
+        "components": {
+            "custom_model_data": {"strings":["cooked_tropical_fish"]},
+            "food": {"nutrition": 6, "saturation": 5},
+            "custom_data": {"cooked_tropical_fish":1},
+            "custom_name": "{\"text\": \"Cooked Tropical Fish\", \"italic\": false}"
+        }
+    },
+    "category": "food"
+}

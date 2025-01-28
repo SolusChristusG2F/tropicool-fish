@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "fillet_crafted": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "tropicool_fish:raw_fish_fillet",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:knowledge_book"
+                        ]
+                    },
+                    {                    
+                        "items": [
+                            "minecraft:tropical_fish"
+                        ]
+                    }    
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tropicool_fish:fillet_crafted_advancement"
+    }
+}

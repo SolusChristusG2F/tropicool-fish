@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:knowledge_book",
+        "minecraft:tropical_fish"
+    ],
+    "result": {
+        "id": "minecraft:heartbreak_pottery_sherd",
+        "components": {
+            "custom_data": {"raw_fish_fillet":1},
+            "custom_model_data": {"strings":["raw_fish_fillet"]},
+            "food": {"nutrition": 1, "saturation": 0.25},
+            "consumable": {"animation": "eat", "sound": "entity.generic.eat", "has_consume_particles": true, "consume_seconds": 1.6},
+            "rarity": "common",
+            "custom_name": "{\"text\": \"Raw Fish Fillet\", \"italic\": false}"
+        },
+        "count": 2
+    }
+}
