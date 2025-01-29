@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "Template datapack, change this in pack.mcmeta",
+    "description": "A datapack designed to expand upon the Tropical Fish item while adding some small mechanics.",
     "pack_format": 61
   }
 }
