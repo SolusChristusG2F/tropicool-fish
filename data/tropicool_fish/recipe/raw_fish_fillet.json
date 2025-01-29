@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:trial_key",
+        "minecraft:tropical_fish"
+    ],
+    "result": {
+        "id": "minecraft:music_disc_13",
+        "components": {
+            "custom_data": {"raw_fish_fillet":1},
+            "custom_model_data": {"strings":["raw_fish_fillet"]},
+            "food": {"nutrition": 2, "saturation": 0.35},
+            "consumable": {"animation": "eat", "sound": "entity.generic.eat", "has_consume_particles": true, "consume_seconds": 1.6},
+            "rarity": "common",
+            "custom_name": "{\"text\": \"Raw Fish Fillet\", \"italic\": false}",
+            "!jukebox_playable": {},
+            "max_stack_size": 64
+        },
+        "count": 2
+    },
+    "category":"misc"
+}

@@ -1,0 +1,46 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " II",
+        "  I",
+        " S "
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "S": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {
+            "tool": {
+                "rules": [
+                    {
+                        "blocks": "#mineable/hoe",
+                        "speed": 6.5,
+                        "correct_for_drops": true
+                    }
+                ],
+                "damage_per_block": 12
+            },
+            "custom_data": {"sickle":1},
+            "custom_model_data": {"strings":["sickle"]},
+            "custom_name": "{\"text\": \"Sickle\", \"italic\":false}",
+            "repairable": {
+                "items": "iron_ingot"
+            },
+            "attribute_modifiers": {
+                "show_in_tooltip": false,
+                "modifiers": [
+                    {
+                        "type": "attack_damage",
+                        "operation": "add_value",
+                        "amount": -0.005,
+                        "slot": "mainhand",
+                        "id": "sickle_damage_modifier"
+                    }
+                ]
+            }
+        }
+    },
+    "category": "equipment"
+}

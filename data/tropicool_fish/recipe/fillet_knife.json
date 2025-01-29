@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "   ",
+        " I ",
+        " S "
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "S": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:trial_key",
+        "components": {
+            "custom_data":{"fillet_knife":1}, 
+            "custom_model_data": {"strings": ["fillet_knife"]}, 
+            "custom_name": "{\"text\":\"Fillet Knife\", \"italic\": false}",
+            "rarity": "common"
+        }
+    }
+}
